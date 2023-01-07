@@ -36,6 +36,7 @@ RunResult TinyInstInstrumentation::Run(int argc, char **argv,
 {
   DebuggerStatus status;
   RunResult ret = OTHER_ERROR;
+  printf("instrumentation = %p\n", instrumentation->GetTargetMethodAddress());
 
   if (instrumentation->IsTargetFunctionDefined())
   {
