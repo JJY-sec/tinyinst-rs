@@ -94,7 +94,7 @@ RunResult TinyInstInstrumentation::Run(int argc, char **argv,
         FATAL("Process hanged before reaching the target method\n");
         break;
       case DEBUGGER_PROCESS_EXIT:
-        FATAL("Process exited before reaching the target method\n");
+        FATAL("Process exited before reaching the target method2\n");
         break;
       default:
         FATAL(
